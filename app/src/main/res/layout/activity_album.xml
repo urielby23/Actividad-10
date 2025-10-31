@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AlbumActivity">
+
+    <!-- GridView para mostrar fotos del álbum -->
+    <GridView
+        android:id="@+id/gridViewAlbum"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="2"
+        android:verticalSpacing="8dp"
+        android:horizontalSpacing="8dp"
+        android:padding="8dp"
+        android:gravity="center"
+        android:stretchMode="columnWidth"
+        android:clipToPadding="false" />
+
+</FrameLayout>
